@@ -1,4 +1,4 @@
-# Asian Grocery Inventory Management System
+# Grocery Inventory Management System
 
 ## Project Overview
 This project stimulates an inventory and replenishment management system for an Asian grocery store in Germany.
