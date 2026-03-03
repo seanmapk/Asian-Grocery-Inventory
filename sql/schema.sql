@@ -14,7 +14,7 @@ CREATE TABLE suppliers (
   supplier_name TEXT NOT NULL,
   country TEXT,
   lead_time_days INTEGER NOT NULL CHECK (lead_time_days >= 0),
-  lead_time_std REAL DEFAULT 0 CHECK (lead_time_std >= 0),
+  lead_time_std REAL DEFAULT 0 CHECK (lead_time_std >= 0)
 );
 
 CREATE TABLE products (
