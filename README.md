@@ -1,8 +1,11 @@
 # Grocery Inventory Management System
 
 ## Project Overview
-This project stimulates an inventory and replenishment management system for an Asian grocery store in Germany.
-Many imported Asian products may face the risk of long supplier lead times, demand fluctuations, and out of stock.
+This project stimulates an **inventory and replenishment management system** for an Asian grocery store in Germany.
+Many imported Asian products often face the challenges such as:
+- Long supplier lead times
+- Demand fluctuations (weekend/seasonal peaks)
+- Out of stock or overstock
 This system integrates SQL data query/storage with Python analytics to support data-driven decision-making.
 The goal is to help the management team minimize stockout risk while maintaining a healthy inventory level.
 
