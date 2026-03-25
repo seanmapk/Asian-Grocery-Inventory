@@ -16,30 +16,40 @@ This system integrates SQL database design with Python simulation and analytics 
 - Risk of overstock and product expiration
 - Inefficient replenishment (too frequent reordering)
 
-## Technical Tools
-- **Database:** SQLite (relational schema design)
-- **Programming:** Python (Pandas, SQL query)
-- **Analytics:** Demand forecasting, safety stock calculation, reorder point model
-- **Output:** KPI reports, replenishment recommendations
-
 ## System Architecture
 1. SQL database
    - Products
    - Suppliers
-   - Sales transactions
+   - Sales (simulated daily demand)
    - Inventory levels
    - Purchase orders
      
-2. Python scripts
-   - Generate and simulate demand data
-   - Calculate the demand mean and variability
-   - Calculate safety stock and reorder point
-   - Analyze stockout rate and inventory turnover
-   - Summarize replenishment recommendations
+2. Python simulation & analytics
+   - Demand simulation (randomness + seasonality + promotion)
+   - Demand mean and variability calculation
+   - Safety stock and reorder point calculation
+   - Inventory simulation
+   - Stockout and replenishment analysis
+   - Strategy optimization
+
+## System Flows
+1. Demand Generation (Python)
+2. Sales Data (SQLite)
+3. Inventory Simulation (Baseline)
+4. Purchase Orders Automation (reorder)
+5. Diagnostic Analysis
+6. Replenishment Optimization
+7. Performance Comparison
 
 ## Key Metrics
 - Daily demand mean and standard deviation
 - Safety stock level
 - Reorder point
 - Stockout rate
-- Inventory turnover ratio
+- Purchase order frequency
+
+## Key Results
+### Purchase Orders
+|  Metric  | Baseline | Optimized | Change |
+|----------|----------|-----------|--------|
+| Total PO |   276    |    199    | ⬇ **-27.9%** |
