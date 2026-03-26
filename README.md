@@ -69,7 +69,7 @@ This system integrates SQL database design with Python simulation and analytics 
 - Kimchi: **55.6% → 0.8%**
 - Hot Pot Soup Base: **50.4% → 1.3%**
 
-These products originally faced **long supplier lead time** & **under-sized reorder quantities**.
+These products originally faced **long supplier lead time** & **undersized reorder quantities**.
 
 ### 2. Moderate Concerns Fully Resolved
 - Pineapple Cake: **25.5% → 0%**
@@ -87,5 +87,23 @@ No unnecessary strategy changes were made.
 
 ## Methodology
 ### Demand Model
-Demand = base_demand x seasonality effect x weekend effect x promotion effect + random noise
+Demand = base_demand × seasonality effect × weekend effect × promotion effect + random noise
 
+### Inventory Model
+Reorder Point = μ × L + Z × √(Lσ² + μ²σ_L²)
+- μ: mean daily demand
+- L: supplier lead time
+- Z: service level factor
+- σ: standard deviation of daily demand
+- σ_L: lead time variability
+
+### Optimization Logic
+- Increase batch size for high stockout SKUs (Stock Keeping Unit)
+- Adjust reorder quantity when ROP is too high
+- Slightly increase batch size for frequently ordered items
+- Keep stable products unchanged
+
+## Key Takeaways
+1. Small reorder quantities may lead to **high stockout** and **frequent reordering**
+2. Demand variability must be taken into account in inventory decisions
+3. Data-driven and rule-based optimization can bring significant business improvements
