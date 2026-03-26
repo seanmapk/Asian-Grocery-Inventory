@@ -1,7 +1,7 @@
 # Grocery Inventory Management System
 
 ## Project Overview
-This project stimulates an **inventory and replenishment management system** for an Asian grocery store in Germany.
+This project stimulates an **inventory and replenishment management system** for an Asian grocery store in 2025, in Germany.
 
 Many imported Asian products often face challenges such as:
 - Long supplier lead times
@@ -52,9 +52,25 @@ This system integrates SQL database design with Python simulation and analytics 
 ### Purchase Orders
 | Metric | Baseline | Optimized | Change |
 |:------:|:--------:|:----------:|:--------:|
-| Total PO | 276 | 199 | ⬇ **-27.9%** |
+| Total POs | 276 | 199 | ⬇ **-27.9%** |
 
+```mermaid
+xychart-beta
+    title "Purchase Orders Comparison"
+    x-axis ["Baseline", "Optimized"]
+    y-axis "Number of POs" 0 --> 300
+    bar [276, 199]
+```
 ### Stockout Rate
 | Metric | Baseline | Optimized | Change |
 |:------:|:--------:|:----------:|:--------:|
 | Stockout Rate | 15.51% | 0.27% | ⬇ **-98%** |
+
+```mermaid
+xychart-beta
+    title "Stockout Rate Comparison"
+    x-axis ["Baseline", "Optimized"]
+    y-axis "Rate (%)" 0 --> 20
+    bar [15.51, 0.27]
+```
+## Key Insights
