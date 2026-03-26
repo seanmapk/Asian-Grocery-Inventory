@@ -50,27 +50,16 @@ This system integrates SQL database design with Python simulation and analytics 
 
 ## Key Results
 ### Purchase Orders
-| Metric | Baseline | Optimized | Change |
-|:------:|:--------:|:----------:|:--------:|
-| Total POs | 276 | 199 | ⬇ **-27.9%** |
+![Purchase Orders Comparison](outputs/po_comparison.png)
 
-```mermaid
-xychart-beta
-    title "Purchase Orders Comparison"
-    x-axis "Number of POs" 0 --> 300
-    y-axis ["Baseline", "Optimized"]
-    bar [276, 199]
-```
+- Baseline: **276**
+- Optimized: **199**
+- Change: **⬇27.9%**
+
 ### Stockout Rate
-| Metric | Baseline | Optimized | Change |
-|:------:|:--------:|:----------:|:--------:|
-| Stockout Rate | 15.51% | 0.27% | ⬇ **-98%** |
+![Stockout Rate Comparison](outputs/stockout_comparison.png)
 
-```mermaid
-xychart-beta
-    title "Stockout Rate Comparison"
-    x-axis "Rate (%)" 0 --> 20
-    y-axis ["Baseline", "Optimized"]
-    bar [15.51, 0.27]
-```
+- Baseline: **15.51%**
+- Optimized: **0.27%**
+- Change: **⬇98%**
 ## Key Insights
