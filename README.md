@@ -54,13 +54,13 @@ This system integrates SQL database design with Python simulation and analytics 
 
 - Baseline: **276**
 - Optimized: **199**
-- Change: **⬇27.9%**
+- Improvement: **27.9% fewer purchase orders**
 
 ### Stockout Rate
 ![Stockout Rate Comparison](stockout_comparison.png)
 
 - Baseline: **15.51%**
 - Optimized: **0.27%**
-- Change: **⬇98%**
+- Improvement: **98% lower stockout rate**
   
 ## Key Insights
