@@ -64,3 +64,28 @@ This system integrates SQL database design with Python simulation and analytics 
 - Improvement: **98% lower stockout rate**
   
 ## Key Insights
+### 1. High-Risk Products Improved Stockout Rate Significantly
+- Frozen Dumplings: **63.8% → 1.6%**
+- Kimchi: **55.6% → 0.8%**
+- Hot Pot Soup Base: **50.4% → 1.3%**
+
+These products originally faced **long supplier lead time** & **under-sized reorder quantities**.
+
+### 2. Moderate Concerns Fully Resolved
+- Pineapple Cake: **25.5% → 0%**
+- Thai Jasmine Rice: **24.9% → 0%**
+- Korean BBQ Sauce: **12.1% → 0%**
+
+Optimized batch sizes to eliminate stockouts.
+
+### 3. Stable Products Remained Efficient
+- Sushi Rice
+- Miso Paste  
+- Soy Sauce
+   
+No unnecessary strategy changes were made.
+
+## Methodology
+### Demand Model
+Demand = base_demand x seasonality effect x weekend effect x promotion effect + random noise
+
