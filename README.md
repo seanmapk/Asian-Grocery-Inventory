@@ -57,8 +57,8 @@ This system integrates SQL database design with Python simulation and analytics 
 ```mermaid
 xychart-beta
     title "Purchase Orders Comparison"
-    x-axis ["Baseline", "Optimized"]
-    y-axis "Number of POs" 0 --> 300
+    x-axis "Number of POs" 0 --> 300
+    y-axis ["Baseline", "Optimized"]
     bar [276, 199]
 ```
 ### Stockout Rate
@@ -69,8 +69,8 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Stockout Rate Comparison"
-    x-axis ["Baseline", "Optimized"]
-    y-axis "Rate (%)" 0 --> 20
+    x-axis "Rate (%)" 0 --> 20
+    y-axis ["Baseline", "Optimized"]
     bar [15.51, 0.27]
 ```
 ## Key Insights
