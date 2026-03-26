@@ -50,14 +50,14 @@ This system integrates SQL database design with Python simulation and analytics 
 
 ## Key Results
 ### Purchase Orders
-![Purchase Orders Comparison](outputs/po_comparison.png)
+![Purchase Orders Comparison](po_comparison.png)
 
 - Baseline: **276**
 - Optimized: **199**
 - Change: **⬇27.9%**
 
 ### Stockout Rate
-![Stockout Rate Comparison](outputs/stockout_comparison.png)
+![Stockout Rate Comparison](stockout_comparison.png)
 
 - Baseline: **15.51%**
 - Optimized: **0.27%**
