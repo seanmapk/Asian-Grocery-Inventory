@@ -62,4 +62,5 @@ This system integrates SQL database design with Python simulation and analytics 
 - Baseline: **15.51%**
 - Optimized: **0.27%**
 - Change: **⬇98%**
+  
 ## Key Insights
