@@ -50,18 +50,18 @@ This system integrates SQL database design with Python simulation and analytics 
 
 ## Key Results
 ### Purchase Orders
-![Purchase Orders Comparison](po_comparison.png)
 
 - Baseline: **276**
 - Optimized: **199**
 - Improvement: **27.9% fewer purchase orders**
 
 ### Stockout Rate
-![Stockout Rate Comparison](stockout_comparison.png)
 
 - Baseline: **15.51%**
 - Optimized: **0.27%**
 - Improvement: **98% lower stockout rate**
+
+![KPI Dashboard](kpi_dashboard.png)
   
 ## Key Insights
 ### 1. High-Risk Products Improved Stockout Rate Significantly
@@ -84,6 +84,8 @@ Optimized batch sizes to eliminate stockouts.
 - Soy Sauce
    
 No unnecessary strategy changes were made.
+
+![SKU Improvement Chart](sku_improvement_chart.png)
 
 ## Methodology
 ### Demand Model
