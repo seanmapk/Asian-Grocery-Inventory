@@ -55,7 +55,7 @@ This system integrates SQL database design with Python simulation and analytics 
 </p>
 
 - The optimized policy reduces purchase orders by 27.9% while lowering the stockout rate from 15.51% to 0.27%
-- The optimization balances inventory efficiency and service level through dynamic adjustment of reorder quantities.
+- The optimization balances inventory efficiency and service level through dynamic adjustment of reorder quantities
   
 ## Key Insights
 ### 1. High-Risk Products Improved Stockout Rate Significantly
