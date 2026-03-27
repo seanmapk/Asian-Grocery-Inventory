@@ -49,19 +49,9 @@ This system integrates SQL database design with Python simulation and analytics 
 - Purchase order frequency
 
 ## Key Results
-### Purchase Orders
-
-- Baseline: **276**
-- Optimized: **199**
-- Improvement: **27.9% fewer purchase orders**
-
-### Stockout Rate
-
-- Baseline: **15.51%**
-- Optimized: **0.27%**
-- Improvement: **98% lower stockout rate**
-
 ![KPI Dashboard](kpi_dashboard.png)
+- Purchase Orders: **276 → 199** (**-27.9%**)
+- Stockout Rate: **15.51% → 0.27%** (**-98%**)
   
 ## Key Insights
 ### 1. High-Risk Products Improved Stockout Rate Significantly
@@ -86,6 +76,7 @@ Optimized batch sizes to eliminate stockouts.
 No unnecessary strategy changes were made.
 
 ![SKU Improvement Chart](sku_improvement_chart.png)
+- SKU-Level (Stock Keeping Unit) Improvement
 
 ## Methodology
 ### Demand Model
@@ -100,7 +91,7 @@ Reorder Point = μ × L + Z × √(Lσ² + μ²σ_L²)
 - σ_L: lead time variability
 
 ### Optimization Logic
-- Increase batch size for high stockout SKUs (Stock Keeping Unit)
+- Increase batch size for high stockout SKUs
 - Adjust reorder quantity when ROP is too high
 - Slightly increase batch size for frequently ordered items
 - Keep stable products unchanged
