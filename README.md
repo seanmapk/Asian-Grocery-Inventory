@@ -51,8 +51,9 @@ This system integrates SQL database design with Python simulation and analytics 
 ## Key Results
 ![KPI Dashboard](kpi_dashboard.png)
 <p align="center">
-  <strong>Figure:</strong> The optimized policy reduces purchase orders by 27.9% while lowering the stockout rate from 15.51% to 0.27%, demonstrating improved replenishment efficiency and service level.
+  <strong>Figure:</strong> Comparison of Purchase Orders and Stockout Rate under the Optimized Replenishment Policy
 </p>
+- The optimized policy reduces purchase orders by 27.9% while lowering the stockout rate from 15.51% to 0.27%
 - The optimization balances inventory efficiency and service level through dynamic adjustment of reorder quantities.
   
 ## Key Insights
