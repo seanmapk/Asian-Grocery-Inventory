@@ -75,8 +75,9 @@ Optimized batch sizes to eliminate stockouts.
    
 No unnecessary strategy changes were made.
 
+
 ![SKU Improvement Chart](sku_improvement_chart.png)
-- SKU-Level (Stock Keeping Unit) Improvement
+:SKU-Level (Stock Keeping Unit) Improvement:
 
 ## Methodology
 ### Demand Model
