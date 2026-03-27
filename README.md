@@ -50,8 +50,10 @@ This system integrates SQL database design with Python simulation and analytics 
 
 ## Key Results
 ![KPI Dashboard](kpi_dashboard.png)
-- Purchase Orders: **276 → 199** (**-27.9%**)
-- Stockout Rate: **15.51% → 0.27%** (**-98%**)
+<p align="center">
+  <strong>Figure:</strong> The optimized policy reduces purchase orders by 27.9% while lowering the stockout rate from 15.51% to 0.27%, demonstrating improved replenishment efficiency and service level.
+</p>
+- The optimization balances inventory efficiency and service level through dynamic adjustment of reorder quantities.
   
 ## Key Insights
 ### 1. High-Risk Products Improved Stockout Rate Significantly
