@@ -77,7 +77,9 @@ No unnecessary strategy changes were made.
 
 
 ![SKU Improvement Chart](sku_improvement_chart.png)
-:SKU-Level (Stock Keeping Unit) Improvement:
+<p align="center">
+  <strong>Figure:</strong> SKU-Level (stock keeping unit) Stockout Rate Improvement After Policy Optimization
+</p>
 
 ## Methodology
 ### Demand Model
