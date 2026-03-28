@@ -1,5 +1,9 @@
 # Grocery Inventory Management System
 
+<p align="center">
+  <img src="github_cover.png" width="850"/>
+</p>
+
 ## Project Overview
 This project stimulates an **inventory and replenishment management system** for an Asian grocery store in 2025, in Germany.
 
