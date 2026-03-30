@@ -62,7 +62,7 @@ This system integrates SQL database design with Python simulation and analytics 
 </p>
 
 <p align="center">
-  <strong>Figure:</strong> Comparison of Purchase Orders and Stockout Rate under the optimized replenishment policy
+  <em><strong>Figure:</strong> Comparison of Purchase Orders and Stockout Rate under the optimized replenishment policy</em>
 </p>
 
 - The optimized policy reduces purchase orders by 27.9% while lowering the stockout rate from 15.51% to 0.27%
@@ -97,7 +97,7 @@ No unnecessary strategy changes were made.
 </p>
 
 <p align="center">
-  <strong>Figure:</strong> Stockout reduction across key SKUs (stock keeping unit), with the largest improvements observed in high-demand and long lead-time products
+  <em><strong>Figure:</strong> Stockout reduction across key SKUs (stock keeping unit), with the largest improvements observed in high-demand and long lead-time products</em>
 </p>
 
 ## Methodology
