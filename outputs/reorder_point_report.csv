@@ -1,0 +1,16 @@
+product_id,product_name,supplier,lead_time_days,lead_time_std,mean_daily_demand,std_daily_demand,safety_stock,reorder_point,reorder_qty_current
+1,Shin Ramyun Spicy Noodles,Korean Food Trading Co.,14.0,3.0,9.01,4.63,53,180,200
+2,Kimchi 500g,Korean Food Trading Co.,14.0,3.0,9.15,4.51,54,182,80
+3,Korean BBQ Sauce,Korean Food Trading Co.,14.0,3.0,8.8,4.44,52,175,100
+4,Sushi Rice 1.5kg,Tokyo Import GmbH,12.0,2.0,9.19,4.39,40,150,150
+5,Miso Paste 500g,Tokyo Import GmbH,12.0,2.0,9.02,4.61,40,148,160
+6,Pocky Chocolate,Tokyo Import GmbH,12.0,2.0,9.27,4.58,41,152,300
+7,Thai Jasmine Rice 2kg,Thai Spice Export Ltd.,18.0,4.0,9.33,4.33,69,237,180
+8,Green Curry Paste,Thai Spice Export Ltd.,18.0,4.0,9.15,4.38,68,233,150
+9,Coconut Milk 400ml,Thai Spice Export Ltd.,18.0,4.0,9.04,4.5,68,231,200
+10,Bubble Milk Tea Powder,Taiwan Fresh Foods Co.,15.0,3.0,9.08,4.59,54,190,150
+11,Pineapple Cake Box,Taiwan Fresh Foods Co.,15.0,3.0,9.1,4.46,54,190,80
+12,Soy Sauce 600ml,Taiwan Fresh Foods Co.,15.0,3.0,9.07,4.35,53,189,160
+13,Chili Oil 250ml,Shanghai Supply,20.0,6.0,9.14,4.53,97,280,120
+14,Hot Pot Soup Base,Shanghai Supply,20.0,6.0,8.9,4.58,95,273,90
+15,Frozen Dumplings 1kg,Shanghai Supply,20.0,6.0,9.44,4.63,100,289,90

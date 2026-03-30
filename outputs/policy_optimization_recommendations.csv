@@ -1,0 +1,16 @@
+product_id,product_name,supplier_name,category,mean_daily_demand,std_daily_demand,lead_time_days,lead_time_std,safety_stock,reorder_point,current_reorder_qty,po_count,stockout_days,stockout_rate,rop_to_reorder_ratio,recommended_reorder_qty,qty_increase,pct_increase,optimization_reason
+1,Shin Ramyun Spicy Noodles,Korean Food Trading Co.,Noodles,3.83,2.11,14.0,3.0,24.0,77.0,200,6,0,0.0,0.38,200,0,0.0,Keep current replenishment strategy
+2,Kimchi 500g,Korean Food Trading Co.,Refrigerated,12.35,2.51,14.0,3.0,64.0,236.0,80,27,203,0.5562,2.95,354,274,3.425,High stockout rate: increase batch size
+3,Korean BBQ Sauce,Korean Food Trading Co.,Sauces,8.19,2.11,14.0,3.0,43.0,158.0,100,26,44,0.1205,1.57,190,90,0.9,ROP too high relative to current reorder quantity
+4,Sushi Rice 1.5kg,Tokyo Import GmbH,Rice,10.05,2.38,12.0,2.0,36.0,157.0,150,24,0,0.0,1.04,173,23,0.1533,No stockout risk but placing frequent orders: increase batch size slightly
+5,Miso Paste 500g,Tokyo Import GmbH,Sauces,9.88,2.41,12.0,2.0,36.0,154.0,160,22,0,0.0,0.96,184,24,0.15,No stockout risk but placing frequent orders: increase batch size slightly
+6,Pocky Chocolate,Tokyo Import GmbH,Snacks,8.42,2.54,12.0,2.0,32.0,133.0,300,9,1,0.0027,0.44,300,0,0.0,Keep current replenishment strategy
+7,Thai Jasmine Rice 2kg,Thai Spice Export Ltd.,Rice,13.53,2.49,18.0,4.0,91.0,335.0,180,21,91,0.2493,1.86,503,323,1.7944,High stockout rate: increase batch size
+8,Green Curry Paste,Thai Spice Export Ltd.,Sauces,5.79,2.24,18.0,4.0,42.0,146.0,150,14,0,0.0,0.97,150,0,0.0,Keep current replenishment strategy
+9,Coconut Milk 400ml,Thai Spice Export Ltd.,Canned,8.08,2.3,18.0,4.0,56.0,202.0,200,14,0,0.0,1.01,200,0,0.0,Keep current replenishment strategy
+10,Bubble Milk Tea Powder,Taiwan Fresh Foods Co.,Beverage,6.61,2.49,15.0,3.0,37.0,136.0,150,15,0,0.0,0.9,150,0,0.0,Keep current replenishment strategy
+11,Pineapple Cake Box,Taiwan Fresh Foods Co.,Snacks,7.36,2.33,15.0,3.0,40.0,150.0,80,25,93,0.2548,1.87,225,145,1.8125,High stockout rate: increase batch size
+12,Soy Sauce 600ml,Taiwan Fresh Foods Co.,Sauces,9.15,2.26,15.0,3.0,48.0,185.0,160,21,0,0.0,1.16,184,24,0.15,No stockout risk but placing frequent orders: increase batch size slightly
+13,Chili Oil 250ml,Shanghai Supply,Sauces,4.74,2.11,20.0,6.0,50.0,145.0,120,14,0,0.0,1.2,120,0,0.0,Keep current replenishment strategy
+14,Hot Pot Soup Base,Shanghai Supply,Instant,9.41,2.8,20.0,6.0,96.0,284.0,90,19,184,0.5041,3.15,426,336,3.7333,High stockout rate: increase batch size
+15,Frozen Dumplings 1kg,Shanghai Supply,Frozen,12.48,2.49,20.0,6.0,125.0,375.0,90,19,233,0.6384,4.16,563,473,5.2556,High stockout rate: increase batch size
