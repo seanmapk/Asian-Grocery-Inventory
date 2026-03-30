@@ -58,7 +58,7 @@ This system integrates SQL database design with Python simulation and analytics 
 
 ## Key Results
 <p align="center">
-  <img src="kpi_dashboard.png" width="700"/>
+  <img src="outputs/kpi_dashboard.png" width="700"/>
 </p>
 
 <p align="center">
@@ -91,7 +91,7 @@ Optimized batch sizes to eliminate stockouts.
 No unnecessary strategy changes were made.
 
 <p align="center">
-  <img src="sku_improvement_chart.png" width="700"/>
+  <img src="outputs/sku_improvement_chart.png" width="700"/>
 </p>
 
 <p align="center">
