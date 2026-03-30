@@ -1,7 +1,7 @@
 # Grocery Inventory Management System
 
 <p align="center">
-  <img src="github_cover.png" width="850"/>
+  <img src="outputs/github_cover.png" width="850"/>
 </p>
 
 <p align="center">
