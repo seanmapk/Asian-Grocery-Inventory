@@ -90,8 +90,6 @@ Optimized batch sizes to eliminate stockouts.
    
 No unnecessary strategy changes were made.
 
-
-![SKU Improvement Chart](sku_improvement_chart.png)
 <p align="center">
   <img src="sku_improvement_chart.png" width="700"/>
 </p>
