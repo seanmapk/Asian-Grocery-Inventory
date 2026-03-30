@@ -97,7 +97,7 @@ No unnecessary strategy changes were made.
 </p>
 
 <p align="center">
-  <em>Stockout reduction across key SKUs (stock keeping unit), with the largest improvements observed in high-demand and long lead-time products</em>
+  <em>Stockout reduction across key SKUs (stock keeping unit), with the largest improvements observed in high demand and long lead-time products</em>
 </p>
 
 ## Methodology
