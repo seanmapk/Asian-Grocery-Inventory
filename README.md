@@ -4,6 +4,10 @@
   <img src="github_cover.png" width="850"/>
 </p>
 
+<p align="center">
+  <em>Data-driven replenishment optimization under demand and lead-time uncertainty</em>
+</p>
+
 ## Project Overview
 This project stimulates an **inventory and replenishment management system** for an Asian grocery store in 2025, in Germany.
 
@@ -53,9 +57,12 @@ This system integrates SQL database design with Python simulation and analytics 
 - Purchase order frequency
 
 ## Key Results
-![KPI Dashboard](kpi_dashboard.png)
 <p align="center">
-  <strong>Figure:</strong> Comparison of Purchase Orders and Stockout Rate under the Optimized Replenishment Policy
+  <img src="kpi_dashboard.png" width="700"/>
+</p>
+
+<p align="center">
+  <strong>Figure:</strong> Comparison of Purchase Orders and Stockout Rate under the optimized replenishment policy
 </p>
 
 - The optimized policy reduces purchase orders by 27.9% while lowering the stockout rate from 15.51% to 0.27%
@@ -86,7 +93,11 @@ No unnecessary strategy changes were made.
 
 ![SKU Improvement Chart](sku_improvement_chart.png)
 <p align="center">
-  <strong>Figure:</strong> SKU-Level (stock keeping unit) Stockout Rate Improvement After Policy Optimization
+  <img src="sku_improvement_chart.png" width="700"/>
+</p>
+
+<p align="center">
+  <strong>Figure:</strong> Stockout reduction across key SKUs (stock keeping unit), with the largest improvements observed in high-demand and long lead-time products
 </p>
 
 ## Methodology
