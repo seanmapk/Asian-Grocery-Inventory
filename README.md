@@ -9,7 +9,7 @@
 </p>
 
 ## Project Overview
-This project stimulates an inventory and replenishment management system for an Asian grocery store in 2025, in Germany.
+This project simulates an inventory and replenishment management system for an Asian grocery store in 2025, in Germany.
 
 Many imported products often face business challenges such as:
 - Uncertain supplier lead times
@@ -29,7 +29,7 @@ This system integrates SQL database design with Python simulation and analytics 
      
 2. Python simulation & analytics
    - Demand simulation (randomness + seasonality + promotion)
-   - Demand mean and variability calculation
+   - Statistical estimation of the demand mean and variability
    - Safety stock and reorder point calculation
    - Inventory simulation
    - Stockout and replenishment analysis
@@ -73,6 +73,7 @@ Performance Comparison
 
 - The optimized policy reduces purchase orders by 27.9% while lowering the stockout rate from 15.51% to 0.27%
 - The optimization balances inventory efficiency and service level through dynamic adjustment of reorder quantities
+- This demonstrates that a rule-based policy, with consideration of demand and lead time uncertainty, can greatly improve overall service level and operational efficiency.
   
 ## Key Insights
 ### 1. High-Risk Products Improved Stockout Rate Significantly
@@ -80,7 +81,7 @@ Performance Comparison
 - Kimchi: **55.6% → 0.8%**
 - Hot Pot Soup Base: **50.4% → 1.3%**
 
-These products originally faced **long supplier lead time** & **undersized reorder quantities**.
+These products originally faced **long supplier lead times** and **insufficient reorder quantities**.
 
 ### 2. Moderate Concerns Fully Resolved
 - Pineapple Cake: **25.5% → 0%**
@@ -123,9 +124,9 @@ Reorder Point = μ × L + Z × √(Lσ² + μ²σ_L²)
 - Keep stable products unchanged
 
 ## Key Takeaways
-1. Small reorder quantities may lead to **high stockout** and **frequent reordering**
-2. Demand variability must be taken into account in inventory decisions
-3. Data-driven and rule-based optimization can bring significant business improvements
+1. Incorporating demand and lead time uncertainty is important when managing imported goods under unstable supply chains
+2. Adjusting reorder quantities dynamically can reduce overall stockouts and operational workload
+3. Simple, rule-based policies can also deliver strong performance without requiring complex machine learning models 
 
 ## Reproducibility & Setup
 This project is designed for full reproducibility from scratch. The user does not need the original database to get started. The pipeline is script-driven as follows:
