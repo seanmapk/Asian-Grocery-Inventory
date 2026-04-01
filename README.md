@@ -120,3 +120,13 @@ Reorder Point = μ × L + Z × √(Lσ² + μ²σ_L²)
 1. Small reorder quantities may lead to **high stockout** and **frequent reordering**
 2. Demand variability must be taken into account in inventory decisions
 3. Data-driven and rule-based optimization can bring significant business improvements
+
+## Reproducibility & Setup
+This project is designed for full reproducibility from scratch. The user does not need the original database to get started. The pipeline is script-driven as follows:
+1. Schema: Initialize the SQLite database using sql/schema.sql
+2. Master data: Seed static entities (e.g., Products, Vendors) using sql/seed.sql
+3. Demand Generation: Create synthetic transaction data using src/generate_sales_data.py
+4. Baseline: Execute the simulation to establish current KPIs
+5. Optimization: Run the ROP policy scripts for improvement comparison
+
+Note: By changing parameters in the generation scripts, the user can simulate different years or demand volatility scenarios.
