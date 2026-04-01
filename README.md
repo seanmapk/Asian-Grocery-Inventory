@@ -1,4 +1,4 @@
-# Grocery Inventory Management System
+# Grocery Inventory Optimization System
 
 <p align="center">
   <img src="outputs/github_cover.png" width="850"/>
