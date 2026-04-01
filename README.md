@@ -36,13 +36,24 @@ This system integrates SQL database design with Python simulation and analytics 
    - Strategy optimization
 
 ## System Flows
-1. Demand Generation (Python)
-2. Sales Data (SQLite)
-3. Inventory Simulation (Baseline)
-4. Purchase Orders Automation (reorder)
-5. Diagnostic Analysis
-6. Replenishment Optimization
-7. Performance Comparison
+
+```text
+Demand Generation (Python)
+        ↓
+Sales Data (SQLite)
+        ↓
+Baseline Inventory Simulation
+        ↓
+Automated Reorder / Purchase Orders
+        ↓
+Diagnostic Analysis
+        ↓
+Replenishment Policy Optimization
+        ↓
+Optimized Simulation
+        ↓
+Performance Comparison
+```
 
 ## Key Metrics
 - Daily demand mean and standard deviation
