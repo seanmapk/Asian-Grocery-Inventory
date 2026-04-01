@@ -73,7 +73,7 @@ Performance Comparison
 
 - The optimized policy reduces purchase orders by 27.9% while lowering the stockout rate from 15.51% to 0.27%
 - The optimization balances inventory efficiency and service level through dynamic adjustment of reorder quantities
-- This demonstrates that a rule-based policy, with consideration of demand and lead time uncertainty, can greatly improve overall service level and operational efficiency.
+- This demonstrates that a rule-based policy, with consideration of demand and lead time uncertainty, can greatly improve overall service level and operational efficiency
   
 ## Key Insights
 ### 1. High-Risk Products Improved Stockout Rate Significantly
