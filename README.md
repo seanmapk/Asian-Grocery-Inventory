@@ -11,18 +11,13 @@
 ## Project Overview
 This project stimulates an inventory and replenishment management system for an Asian grocery store in 2025, in Germany.
 
-Many imported products often face challenges such as:
-- Long supplier lead times
-- Demand fluctuations (weekend/seasonal peaks)
-- Out of stock or overstock
-
-This system integrates SQL database design with Python simulation and analytics to support data-driven replenishment decisions. The goal is to help the management team minimize stockout risk while improving operational efficiency.
-
-## Observed Business Problem
+Many imported products often face business challenges such as:
 - Uncertain supplier lead times
 - Demand volatility (e.g., weekend/seasonal peaks, promotions)
 - Risk of overstock and product expiration
-- Inefficient replenishment (too frequent reordering)
+- Inefficient replenishment
+
+This system integrates SQL database design with Python simulation and analytics to support data-driven replenishment decisions. The goal is to help the management team minimize stockout risk while improving operational efficiency.
 
 ## System Architecture
 1. SQL database
