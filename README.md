@@ -9,9 +9,9 @@
 </p>
 
 ## Project Overview
-This project stimulates an inventory and replenishment management system for an Asian grocery store in 2025.
+This project stimulates an inventory and replenishment management system for an Asian grocery store in 2025, in Germany.
 
-Many imported Asian products often face challenges such as:
+Many imported products often face challenges such as:
 - Long supplier lead times
 - Demand fluctuations (weekend/seasonal peaks)
 - Out of stock or overstock
