@@ -60,7 +60,7 @@ Performance Comparison
 - Safety stock level
 - Reorder point
 - Stockout rate
-- Purchase order frequency
+- Purchase order quantity
 
 ## Key Results
 <p align="center">
