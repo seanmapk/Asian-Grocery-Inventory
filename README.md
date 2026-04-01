@@ -106,15 +106,15 @@ No unnecessary strategy changes were made.
 
 ## Methodology
 ### Demand Model
-Demand = base_demand × seasonality effect × weekend effect × promotion effect + random noise
+Demand = base demand × seasonality effect × weekend effect × promotion effect + random noise
 
 ### Inventory Model
 Reorder Point = μ × L + Z × √(Lσ² + μ²σ_L²)
 - μ: mean daily demand
-- L: supplier lead time
-- Z: service level factor
+- L: mean supplier lead time
+- Z: service level factor (z-score)
 - σ: standard deviation of daily demand
-- σ_L: lead time variability
+- σ_L: standard deviation of lead time
 
 ### Optimization Logic
 - Increase batch size for high stockout SKUs
